@@ -1,0 +1,104 @@
+/*-----------------------------------------------
+      Justice Court Vanilla Css Styles Start
+------------------------------------------------*/
+
+
+/*-------------------- Button Styles --------------------------*/
+.btn-justise {
+    width: auto;
+    height: 40px;
+    background-color: #B68C5A;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Nav-bar */
+.navbar-toggler {
+    color: #B68C5A;
+    ;
+}
+
+/*------------------------ Banner Area -------------------------*/
+.banner-img {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/*----------------------- Legal Practice Area ----------------------*/
+.justice-criminal {
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+/*----------------------- Image Slider Area -----------------------*/
+.clients-banner-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)100%), url(../images/slider-1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.clients-banner-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)100%), url(../images/slider-2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.clients-banner-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0.6, 0, 0, 0.8)100%), url(../images/slider-3.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.client-img {
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+}
+
+/* ---------------- Faq Area Styles -----------------*/
+.faq-image {
+    background-size: cover;
+}
+
+.accordion {
+    --bs-accordion-active-color: none;
+    --bs-accordion-active-bg: none;
+    --bs-accordion-border-color: none;
+    --bs-accordion-border-width: none;
+}
+
+.accordion-item {
+    background: #F3F3F3;
+}
+
+.accordion-button {
+    background: #F3F3F3;
+    margin-top: 20px;
+
+}
+
+.accordion-button:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+/* ------------------contact-styles ---------------- */
+.contact-area {
+    background: #F3F3F3;
+    border-radius: 8px;
+}
+
+/*---------------- Footer Section -----------------*/
+
+.footer-text {
+    color: #CFCFCF
+}
+
+
+/*----------------------------------------------
+        End Justice Court Styles Here
+------------------------------------------------*/
